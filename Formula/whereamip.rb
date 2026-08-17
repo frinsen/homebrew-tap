@@ -7,8 +7,8 @@ class Whereamip < Formula
   # `  url "` / `  sha256 "` lines below); adding a second url/sha256 line
   # (e.g. for a bottle or livecheck block) at that same indentation would get
   # clobbered with the wrong value unless that sed is updated to match.
-  url "https://github.com/frinsen/whereamip/archive/refs/tags/v0.3.1.tar.gz"
-  sha256 "763cc4962f059e2bff1c7ec65eae7c339a4fe36b2393c9701fbd7aff3332794f"
+  url "https://github.com/frinsen/whereamip/archive/refs/tags/v0.3.2.tar.gz"
+  sha256 "ec215d17a6c10dea8ca2b7509c4c1368e505512b2c0b0b7289421a74cb49a2d0"
   license "MIT"
   head "https://github.com/frinsen/whereamip.git", branch: "main"
 
