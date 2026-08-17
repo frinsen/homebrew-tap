@@ -44,6 +44,8 @@ class Whereamip < Formula
       Start the menu bar app with:
         open "#{opt_libexec}/WhereAmIP.app"
       Then enable Settings ▸ Launch at Login inside the app.
+      Optional — show it in /Applications (survives upgrades via the opt symlink):
+        ln -s "#{HOMEBREW_PREFIX}/opt/whereamip/libexec/WhereAmIP.app" /Applications/WhereAmIP.app
       CLI: whereamip status
 
       If Launch at Login stops working after a brew upgrade, re-toggle it in
