@@ -1,14 +1,14 @@
 class Whereamip < Formula
   desc "Menu bar country-flag exit IP, VPN + Private Relay + connectivity awareness"
-  homepage "https://github.com/frinsen/whereamip"
+  homepage "https://frinsen.github.io/whereamip/"
   # NOTE: exactly one `url` and one `sha256` line are allowed in this file.
   # .github/workflows/release.yml bumps both via a line-anchored `sed` on
   # every release tag push (matches only the canonical two-space-indented
   # `  url "` / `  sha256 "` lines below); adding a second url/sha256 line
   # (e.g. for a bottle or livecheck block) at that same indentation would get
   # clobbered with the wrong value unless that sed is updated to match.
-  url "https://github.com/frinsen/whereamip/archive/refs/tags/v0.6.tar.gz"
-  sha256 "26327534cacc51958ca7d8caf784ca6024282a1ac2a4fe35a98e3260044ff396"
+  url "https://github.com/frinsen/whereamip/archive/refs/tags/v0.6.1.tar.gz"
+  sha256 "3e1ddce64dd437c1f50d91ff6fd223413436973a7da736a6f369dbb59b12e721"
   license "MIT"
   head "https://github.com/frinsen/whereamip.git", branch: "main"
 
